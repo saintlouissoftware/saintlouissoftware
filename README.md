@@ -1,6 +1,6 @@
 # SaintLouisSoftware.com
 
-1[site screenshot](https://saintlouissoftware.com/images/gitreposcreenshot.png)
+![site screenshot](https://saintlouissoftware.com/images/gitreposcreenshot.png)
 
 This is the repo for my website's code. Check it out [here](https://saintlouissoftware.com). However, it only shows frontend, not full-stack stuff. I run it on a typical LAMP server. 
 
