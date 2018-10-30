@@ -37,11 +37,14 @@
           <header>
               <!--responsive banner-->
               
-              <div class="text-center" id="headerThing">
-                  <img src="../images/saint_louis02_cropped.png" id="firstImage" alt="Saint Louis Software Banner"  width="510" class="img-fluid"> <!--removed width="510" height="56"-->
-                  
-                
-              </div>
+              <section style="z-index:-1; max-height:300px;" class="canvas-wrap">
+                  <div class="canvas-content">
+                  </div>
+                  <div id="canvas" class="gradient" ></div>
+              </section> 
+                <div class="text-center" id="headerThing" style="background:rgba(0,0,0,0)!important;">
+                    <img src="../images/saint_louis02_cropped.png" id="firstImage" alt="Saint Louis Software Banner"  width="510" class="img-fluid"> <!--removed width="510" height="56"-->
+                </div>
                   <!--responsive navbar-->
 
 
@@ -209,6 +212,17 @@
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script onload="newQuote();" src="../js/scroll.js"></script>
     <script src="../js/quotes.js"></script>
+    <!--BEGINNING OF 3D JS-->
+    <!-- Main library -->
+    <script src="../js/three.min.js"></script>
+      
+    <!-- Helpers -->
+    <script src="../js/projector.js"></script>
+    <script src="../js/canvas-renderer.js"></script>
+
+    <!-- Visualitzation adjustments -->
+    <script src="../js/3d-lines-animation.js"></script>
+    <!--END OF 3D JS-->
       
     </div>
   </body>
