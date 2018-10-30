@@ -30,6 +30,15 @@
   min-height: 100vh;
 }
 
+/*changes background*/
+@media (min-width: 1900px) {
+  #mainId {
+    background-image: url("../images/stl_bg_tall_narrow.jpg");
+    background-size: 100%;
+    /*max-height: 100%;*/
+  }
+}
+
 #lightBoxClose {
   z-index: 20000;
 }

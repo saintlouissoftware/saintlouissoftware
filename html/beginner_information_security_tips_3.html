@@ -3,8 +3,8 @@
   <head>
     <!--open graph protocol-->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Beginner Information Security Tips" />
-    <meta property="og:url" content="https://saintlouissoftware.com/beginner_information_security_tips.html" />
+    <meta property="og:title" content="Beginner Information Security Tips (Page 3)" />
+    <meta property="og:url" content="https://saintlouissoftware.com/beginner_information_security_tips_3.html" />
     <meta property="og:image" content="https://saintlouissoftware.com/images/security.jpg" />
     <meta property="og:description" content="Fundamental security concepts everyone should know" />
     <meta property="og:site_name" content="Saint Louis Software"/>
@@ -21,7 +21,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-    <title>Beginner Information Security Tips (Page 1) | Saint Louis Software</title>
+    <title>Beginner Information Security Tips (Page 3) | Saint Louis Software</title>
     <link rel="icon" type="image/gif" href="../images/favicon.gif">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/site.css">
@@ -98,7 +98,7 @@
           
 
                   <div class="investingArticle">
-                  <p><h1 class="articleTitle">Beginner Information Security Tips (Page 1)</h1>
+                  <p><h1 class="articleTitle">Beginner Information Security Tips (Page 3)</h1>
                     <div class="firstSentence"><h3>Fundamental security concepts everyone should know</h3></div>
                     <div class="authorAndDate"><a href="about.html">Alan</a>, 8/24/2018</div>
                     <div class="text-center"><img src="../images/security.jpg" class="center-block" id="articlePhoto" alt=""></div>
@@ -107,33 +107,34 @@
 
                   <p>Here are some basic concepts for security:</p>
                 <ul class="text-left aboutMarginClass">
-                  
-                  <li>Document features.</li>
-                  <li>Never trust user input.</li>
-                  <li>Web application firewalls are good, but don't just use them as a bandaid on top of bad code.</li>
-                  <li>Disable debug features in production.</li>
-                  <li>Perform pen testing.</li>
-                  <li>Use proper exception handling and logging.</li>
-                  <li>Don't just save logs. Review them. Manual review is pretty much impossible, but use something that analyzes logs to look for suspicious events and behavior.</li>
-                  <li>Make sure file octal permissions are correct.</li>
-                  <li>Install software updates on internet-facing systems. Old software will have known vulnerabilities.</li>
-                  <li>Perform proper monitoring (to catch things like reverse shells or exfiltration).</li>
-                  <li>Never reuse passwords.</li>
-                  <li>Don't have overly-permissive regular expression.</li>
-                  <li>Consider using kernel security modules.</li>
-                  <li>Always remember the principle of least privilege. </li>
-                  <li>Choose tools that make it easy to write secure code. For example, Rust makes memory safety easier than C++.</li>
-                  <li>Make sure you have proper memory management, otherwise you can encounter overflows or double free issues. Memory security features like ASLR are also good.</li>
-                  <li>If you're using software you didn't make (example: a web server or database), make sure you read about securing it properly first.</li>
-                  <li>If you don't know how to secure a feature you're planning on exposing to the internet, don't do it.</li>
-                  <li>Be aware of APTs, 0-days, and complicated exploits, but make sure you don't miss low-hanging fruit.</li>
-                  <li>What you want your code to do and what it actually does are two different things.</li>
-                  <li>Remember that security is an ongoing process and never absolute.</li>
-                  <li>Try to keep things simple. Complexity is the enemy of security.</li>
-                  <li>Perform proper unit, integration, and regression testing.</li>
-                  <li>Don't hardcode credentials.</li>
-                  <li>Never store passwords in plaintext.</li>
-                  <li>Don't assume things will go as planned.</li>
+                  <li>Use firewalls.</li>
+                  <li>Use encryption whenever you can. Encryption is important for both data in motion and data at rest.</li>
+                  <li>Remember that anti-malware software is not a fully-featured endpoint security solution.</li>
+                  <li>Don't trust public wifi.</li>
+                  <li>Use VPNs on public networks, but even then, realize VPNs can be compromised.</li>
+                  <li>Open source can theoretically increase security by allowing people who use your software to submit pull requests, bug reports, and more. However, be cautious of code that is submitted to your project.</li>
+                  <li>Make sure your site isn’t vulnerable to local file inclusion or remote file inclusions attacks. These can be used for web shells, such as WSO or C99.</li>
+                  <li>When you accept user input, test it against possible command injection attacks. Make sure it’s not vulnerable.</li>
+                  <li>Any uploaded files need to be properly validated. Just like text, you can’t trust uploads. Even something seemingly benign like a user-uploaded profile picture can either have files embedded within the file, or even PHP shell code command injection via metadata headers, which can be used to get a web shell.</li>
+                  <li>Protect your site against cross-site scripting.</li>
+                  <li>Make sure your site is protected against cross-site request forgery.</li>
+                  <li>Anyone can design something that they themselves cannot figure out how to hack. However, that does not mean it's hack-proof.</li>
+                  <li>Just because there is no <em>public</em> exploit for a security vulnerability doesn't mean no one is exploiting it.</li>
+                  <li>Use IDS/IPS/SIEM.</li>
+                  <li>OSINT, for both passive and active information gathering, can be used for hacking or phishing.</li>
+                  <li>Learn about the concepts of privilege escalation and remote code execution.</li>
+                  <li>Segment a network to protect against pivoting.</li>
+                  <li>Disable Word macros.</li>
+                  <li>Keep track of changes and inventory.</li>
+                  <li>Patch critical security updates out of band if need be.</li>
+                  <li>Offer a bug bountry program.</li>
+                  <li>Work with security researchers instead of against them.</li>
+                  <li>Parameterize database queries.</li>
+                  <li>Use prepared statements.</li>
+                  <li>Perform checksum verification after downloading something.</li>
+                  <li>Remember that JavaScript can be used to deliver malware, or even deanonymize Tor or VPN users.</li>
+                  <li>Instead of IP addresses or cookies, browser fingerprinting is another way to identify or track users.</li>
+
 
                 </ul>
 
@@ -142,22 +143,21 @@
 
                   <nav aria-label="Page navigation example">
                       <ul class="pagination justify-content-center">
-                        <li class="page-item disabled">
-                          <a class="page-link" href="javascript:void(0);" tabindex="-1">Previous</a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                        <li class="page-item"><a class="page-link" href="beginner_information_security_tips_2.html">2</a></li>
-                        <li class="page-item"><a class="page-link" href="beginner_information_security_tips_3.html">3</a></li>
                         <li class="page-item">
-                          <a class="page-link" href="beginner_information_security_tips_2.html">Next</a>
+                          <a class="page-link" href="beginner_information_security_tips_2.html" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="beginner_information_security_tips.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="beginner_information_security_tips_2.html">2</a></li>
+                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">3</a></li>
+                        <li class="page-item disabled">
+                          <a class="page-link" href="javascript:void(0);">Next</a>
                         </li>
                       </ul>
                     </nav>
 
                 </div>
 
-              
-                
+                <p>For more information, check out <a href="https://www.slideshare.net/secret/Kg0dLpMyIMLKJt">this presentation about security</a> I made a while ago.</p>
                 </div>
 
       
