@@ -25,10 +25,13 @@
     <link rel="icon" type="image/gif" href="../images/favicon.gif">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/site.css">
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body id="page-home">
@@ -99,9 +102,18 @@
           <div class="container">
             <h1 class="pageTitle">Abyss Dropper</h1>
 
-
+            
                   <div class="investingArticle">
+                      
+                      <div class="checkbox text-center">
+                          <label>
+                            <input type="checkbox" data-toggle="toggle">
+                            Header 3D lines
+                          </label>
+                        </div>
+
                     <div class="text-center"><img src="../images/abyss_dropper_575px.png" class="center-block" id="articlePhoto" alt=""></div>
+                    
                     <p>First and foremost, if there's anything I've learned in recent years, it's that security projects need cool names and logos (see: Heartbleed, Shellshock, Stagefright, etc), or else people will be bored to death with all the technical details. Everyone remembers Heartbleed, but nobody remembers CVE-2014-0160 (even though they're the same thing). You need to make it seem more interesting and easy to remember, or else it might not get much attention. Abyss Dropper is a multi-stage dropper which coincides with some semi-related security research I conducted on my own.</p>
                     <p>I made a file steganography tool called <a href="filehider.html">FileHider</a>, which is a tool for hiding files within other files. I decided to test files I made using this tool on a number of websites. The result was very surprising. Many websites don't properly validate image uploads. This means you can upload arbitrary files to many public, well-known, fast, high-availability, highly-trusted websites. </p>
                     <p>Some sites use something like imagemagick in order to compress images, and they sometimes get rid of exif metadata as well. But some just leave an image as-is, and even leave any trailing data too. But recompression isn't enough. There are a few different methods of steganography, such as least significant bit, but that changes the image slightly, and can be thwarted by simple recompression.</p>
@@ -125,6 +137,15 @@
                     <p>I am a benevolent security researcher and I mean no harm, which is why I take responsible disclosure seriously, and why not all of my security projects are available online right now.</p>
                     <p>If you are interested in Abyss Dropper, please <a href="contact.html">contact me here.</a></p>
                     <p>Abyss Dropper will be available on GitHub <a href="https://github.com/0x416c616e/abyssdropper">here</a> in the near future.</p>
+                    <p class="text-center"><!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/0x416c616e/abyssdropper/subscription" data-icon="octicon-eye" data-size="large" aria-label="Watch 0x416c616e/abyssdropper on GitHub">Watch</a>
+                      <!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/0x416c616e/abyssdropper" data-icon="octicon-star" data-size="large" aria-label="Star 0x416c616e/abyssdropper on GitHub">Star</a>
+                      <!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/0x416c616e/abyssdropper/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork 0x416c616e/abyssdropper on GitHub">Fork</a>
+                      <!-- Place this tag where you want the button to render. -->
+                      <a class="github-button" href="https://github.com/0x416c616e/abyssdropper/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download 0x416c616e/abyssdropper on GitHub">Download</a>
+                    </p>
                   </div>
                 
        
@@ -193,7 +214,8 @@
                           <img class="image1CuriousCat" src="../images/curious_cat_hover.png" />
                           <a href="https://curiouscat.me/0x416c616e"><img class="image2CuriousCat" src="../images/curious_cat.png" /></a>
                       </nav>
-
+                      <div class="footerCopyright"> Please follow me on GitHub!</div>
+                      <a class="github-button" href="https://github.com/0x416c616e" aria-label="Follow @0x416c616e on GitHub">Follow @0x416c616e</a>
 
                       <!--<a href="https://curiouscat.me/0x416c616e"><img src="../images/curious_cat.png" style="position:relative; top:-7px;"></a>-->
                       <div class="footerCopyright">
@@ -244,7 +266,10 @@
     <!-- Visualitzation adjustments -->
     <script src="../js/3d-lines-animation.js"></script>
     <!--END OF 3D JS-->
-      
+          <!--bootstrap toggle-->
+    <link href="../css/bootstrap-toggle.css" rel="stylesheet">
+    <script src="../js/bootstrap-toggle.js"></script>
+    <!--end of bootstrap toggle-->
     </div>
   </body>
 </html>
