@@ -1,5 +1,4 @@
 var quotes = [
-    'If you want to accomplish something in the world, idealism is not enough - you need to choose a method that works to achieve the goal.',
     'Programmers are in the enviable position of not only getting to do what they want to, but because the end result is so important they get paid to do it. There are other professions like that, but not that many.',
     'The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value.',
     'A ship in port is safe, but that\'s not what ships are built for.',
@@ -31,7 +30,6 @@ var quotes = [
     'Information flow is what the Internet is about. Information sharing is power. If you don\'t share your ideas, smart people can\'t do anything about them, and you\'ll remain anonymous and powerless.',
     'The best designers will use many design patterns that dovetail and intertwine to produce a greater whole.',
     'Programmers working with high-level languages achieve better productivity and quality than those working with lower-level languages.',
-    'You don\'t understand anything until you learn it more than one way.',
     'True greatness is measured by how much freedom you give to others, not by how much you can coerce others to do what you want.',
     'People think of security as a noun, something you go buy. In reality, it\'s an abstract concept like happiness. Openness is unbelievably helpful to security.',
     'Do not be afraid to fail, but also, do not be afraid to succeed.',
@@ -45,7 +43,6 @@ var quotes = [
     'Always deliver more than expected.'
 ]
 var authors = [
-    'Richard Stallman',
     'Linus Torvalds',
     'Ada lovelace',
     'Grace Hopper',
@@ -77,7 +74,6 @@ var authors = [
     'Vint Cerf',
     'Erich Gamma',
     'Steve McConnell',
-    'Marvin Minsky',
     'Larry Wall',
     'James Gosling',
     'Eric Schmidt',
