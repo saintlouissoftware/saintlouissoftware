@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home | Saint Louis Software</title>
+    </head>
+     <body id="page-home">
+        <div id="container">
+            <p>
+                Hello, world!
+            </p>
+        </div>
+    </body>
+</html>
